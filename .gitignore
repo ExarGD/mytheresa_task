@@ -1,5 +1,8 @@
 *
 !.gitignore
-!README.md
 !Pipfile
 !test_*.py
+!*.md
+!chromedriver*
+!Technical Knowledge
+!QA Knowledge
