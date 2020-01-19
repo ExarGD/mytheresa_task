@@ -1,21 +1,25 @@
-# Setup
+# MyTheresa Task
 
-## Windows:
+## QA Knowledge questions
 
-1. Install Python 3 https://www.python.org/downloads/
+Can be found in QA Knowledge folder
 
-2. Clone repository `git clone git@github.com:ExarGD/mytheresa_task.git`
+## Technical knowledge quiestions
 
-3. Download ChromeDriver from here https://sites.google.com/a/chromium.org/chromedriver/downloads
+Can be found in Technical Knowledge folder
 
-4. Place ChromeDriver executable in repository Technical Knowledge folder (if it's not there)
+### User scenario
 
-5. Install pipenv `pip3 install pipenv`
+>File: `test_search.py`
 
-6. `$env:PIPENV_VENV_IN_PROJECT="enabled"` for Powershell and `set PIPENV_VENV_IN_PROJECT="enabled"` for CMD (this is needed to create virtualenv directory locally for easier deletion)
+Implemented using python and selenium.
 
-7. Go to repository folder
+### REST API question
 
-8. `pipenv --python 3`
+Can't be implemented because site https://www.food2fork.com/ isn't working so API is unavailable
 
-9. `pipenv install`
+### Problem solving questions
+
+File: `problem_solving.py`
+
+I've done this using dictionary, this allowed me to make these task extendable, by just adding more cases to the dictionary

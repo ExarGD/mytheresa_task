@@ -16,7 +16,7 @@ def problem(input_number):
         3: "my",
         5: "theresa",
         7: "clothes"
-        # you can add here many more of the pairs
+        # you can add here many more of the pairs but keep the order
     })
 
     output = ""
@@ -30,4 +30,4 @@ def problem(input_number):
 
 
 if __name__ == "__main__":
-    print(problem(100))  # Check here
+    print(problem(105))  # Check here
