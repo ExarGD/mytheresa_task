@@ -12,13 +12,11 @@
 
 5. Install pipenv `pip3 install pipenv`
 
-6. `$env:PIPENV_VENV_IN_PROJECT="enabled"` for Powershell and `set PIPENV_VENV_IN_PROJECT="enabled"` for CMD (this is needed to create virtualenv directory locally for easier deletion)
+6. Execute `$env:PIPENV_VENV_IN_PROJECT="enabled"` for Powershell or `set PIPENV_VENV_IN_PROJECT="enabled"` for CMD (this is needed to create virtualenv directory locally for easier deletion)
 
 7. Go to repository folder
 
-8. `pipenv --python 3`
-
-9. `pipenv install`
+8. `pipenv install`
 
 ## Gucci bags task
 
